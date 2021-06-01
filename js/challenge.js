@@ -29,7 +29,7 @@ n.innerText = c
 
 })
 
-
+const array = []
 const heart = document.querySelector("#heart")
 
 heart.addEventListener("click", function(){
@@ -38,7 +38,7 @@ heart.addEventListener("click", function(){
      let mainClass = document.querySelector(".likes")
 
 
-const array = []
+
 if(array.includes(c)){
  array.push(c)
  const times = array.filter( (a) => a === c)
